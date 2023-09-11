@@ -1,0 +1,75 @@
+.customerContainer {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+}
+
+.email {
+  font-size: 2rem;
+  color: rgb(0, 0, 59);
+  font-weight: bold;
+}
+
+.header {
+  color: rgb(0, 0, 59);
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.form {
+  max-width: 80%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40em;
+}
+
+.form button {
+  color: #fff;
+  width: 12rem;
+  background-color: rgb(43, 168, 177);
+  margin: 0 auto;
+}
+
+.form button:hover {
+  background-color: rgb(32, 124, 130);
+}
+
+.error {
+  color: red;
+}
+
+.enrollmentRequests {
+  background-color: white;
+  margin-top: 2rem;
+  max-width: 80%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 40em;
+  margin-bottom: 2rem;
+}
+
+.filterAndSearch {
+  display: flex;
+  gap: 1rem;
+}
+
+.listItem {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .filterAndSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
